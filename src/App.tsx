@@ -91,7 +91,7 @@ function App() {
               The address {address} is composed of the following character types: {addressCharacters.map(({ categoryName }) => categoryName).join(', ')}
             </p>
             <p className="text-gray-500 dark:text-gray-400">
-              Share this result: <a className='text-blue-500 whitespace-nowrap' href={`/?address=${address}`}>
+              Share this result: <a className='text-blue-500' href={`/?address=${address}`}>
                 {window.location.origin}/?address={address}</a>
             </p>
           </div>
@@ -109,6 +109,9 @@ function App() {
             </button>
           </a>
         </div>
+        <a className='text-center text-gray-600 block' href="https://github.com/nameskyteam/cryptoaddressinspector/issues" target="_blank">
+          Found an issue? Let us know on GitHub!
+        </a>
       </div>
     </main>)
 }
