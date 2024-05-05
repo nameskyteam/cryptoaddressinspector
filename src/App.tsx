@@ -43,7 +43,7 @@ function App() {
             Inspect
           </button>
           <div className="space-y-2">
-            <div className='font-mono flex items-center justify-center font-bold text-xl'>
+            <div className='sticky top-0 p-4 bg-white shadow-sm rounded-md font-mono flex items-center justify-center font-bold text-xl'>
               {
                 addressCharacters.map(({ char, index }) => {
                   // if hoverIndex is not -1 and the index is equal to the hoverIndex, add a border around the character
